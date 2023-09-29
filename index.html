@@ -1,26 +1,56 @@
-
-<! DOCTTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-        <title>HTML PROJECT X </title>
-         <link rel="stylesheet" type="text/css" href="css/style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Food-Website</title>
+   <link rel="stylesheet" href="style.css">
+   <!--font awesome 4 cdn-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-         <header>
-                <div class= "main">
-                <ul>
-                     <li> <a href="https://www.ubereats.com/">UBER EATS</a></li>
-<li> <a href="https://www.swiggy.com/">SWIGGY</a></li>
-<li> <a href="https://www.zomato.com/india">ZOMATO</a></li>
-<li> <a href="https://pizzaonline.dominos.co.in/?src=google_sem_brand&utm_source=google&utm_medium=cpc&utm_campaign=Brand-PanIndia-Desktop-Exact-2016-S&gclid=CjwKCAjwsKqoBhBPEiwALrrqiBGowzCEixXu52jeKbzGePgForeeBKfHMBY_i7u7KcBkvALQuTkCXhoCZYgQAvD_BwE">DOMINOS</a></li>
-</ul>
- </div>
-<div class="title">
-<h1>WELCOME TO ALL IN ONE CYBER RESTRAUNT<span class="change_content"></span></H1></div>
-<div class="button">
-<a href="https://en.wikipedia.org/wiki/Restaurant"class="btn">LEARN MORE</a>
-<a href="https://www.google.com/gmail/about/"class="btn">SEND FEEDBACK</a>
-</div>
-   </header>
+   <nav>
+      <div id="nav-cover">
+         <div class="nav-logo">
+            <i class="fas fa-seedling"></i>
+            <span>Food Website</span>
+         </div>
+         <div class="nav-links">
+            <a href="">Uber Eats</a>
+            <a href="">Swiggy</a>
+            <a href="">Zomato</a>
+            <a href="">Dominos</a>
+            <a class="close">Close</a>
+         </div>
+      </div>
+   </nav>
+   <main>
+
+      <a class="open">Open</a>
+      <div id="main-cover" data-tilt>
+         <div class="main-one">
+            <div class="main-head1">
+               Welcome to All in One Cyber Restraunt! 🍽️🎉
+            </div>
+            <br>
+            <div class="main-head2">
+               We are delighted to have you here. Our restaurant offers a wide range of culinary delights from various popular food delivery services such as Uber Eats, Swiggy, Zomato, and Domino’s. You can enjoy a diverse selection of cuisines and dishes from these renowned platforms, all in one place!
+            </div>
+         </div>
+         <div class="but-link" style="display: flex; position: absolute; bottom: 1rem;">
+
+            <div class="coverhid">
+            <i class="fa fa-question-circle" aria-hidden="true"></i>
+
+            </div>
+            <div class="coverhid2">
+            <i class="fas fa-comments"></i>
+
+            </div>
+         </div>
+      </div>
+   </main>
+   <script src="vanilla-tilt.js"></script>
+   <script src="main.js"></script>
 </body>
 </html>
